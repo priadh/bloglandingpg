@@ -1,0 +1,30 @@
+
+.login-signup {
+    margin-top: 20px;
+    display: none;
+  }
+
+  .login-signup h3 {
+    margin-top: 0;
+  }
+
+  .login-signup form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .login-signup input[type="text"],
+  .login-signup input[type="password"],
+  .login-signup input[type="email"] {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .login-signup input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

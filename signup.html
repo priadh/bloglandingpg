@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #000000;
+      border:1px solid #cec7c7;
+      border-radius:5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .signup-container h2 {
+      color:#cec7c7;
+      text-align: center;
+      margin-bottom: 20px;
+      width: 400px;
+    }
+
+    .signup-form {
+      color: #cec7c7;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .signup-form label {
+      margin-bottom: 10px;
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="password"] {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 3px;
+      border: 1px solid #cec7c7;
+    }
+
+    .signup-form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #19e4eb;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .signup-form input[type="submit"]:hover {
+      background-color: #16a7e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Signup</h2>
+    <form class="signup-form" action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Signup">
+    </form>
+  </div>
+</body>
+</html>
